@@ -1,8 +1,8 @@
 name: Ponicode DogString
 
 on:
-  push:
-    branches: [master]
+  - pull_request
+  - push
 
 jobs:
   build:
